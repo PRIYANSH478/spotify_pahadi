@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotify</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <script src="script.js"></script>
+  <div class="navbar">
+
+    <!-- Left: Logo + Home -->
+    <div class="left-section">
+      <a href="https://www.spotify.com/in-en/home/" target="_blank">
+        <img src="spotify.svg" alt="Logo">
+      </a>
+      <a href="https://www.spotify.com/in-en/home/" target="_blank">
+        <img src="home.svg" alt="Home">
+      </a>
+      <a href="https://www.spotify.com/in-en/about us/" target="_blank">
+        <button class="about-us">ABOUT US</button>
+      </a>
+    </div>
+
+
+    <!-- Center: Search -->
+    <div class="search-container">
+      <img src="search.svg" alt="Search Icon" />
+      <input type="text" placeholder="What do you want to play?" />
+    </div>
+
+    <!-- Right: Buttons -->
+    <div class="buttons">
+      <a href="https://www.spotify.com/in-en/premium/" target="_blank">
+        <button>PREMIUM</button>
+      </a>
+      <a href="https://www.spotify.com/in-en/store/" target="_blank">
+        <button>STORE</button>
+      </a>
+      <a href="https://www.spotify.com/in-en/download/" target="_blank">
+        <button>DOWNLOAD</button>
+      </a>
+      <a href="https://www.spotify.com/in-en/explore/" target="_blank">
+        <button>EXPLORE</button>
+      </a>
+      <span class="divider">|</span>
+      <a href="https://www.spotify.com/in-en/install/" target="_blank">
+        <button>INSTALL</button>
+      </a>
+
+
+
+      <div class="signin">
+        <button class="signin-btn">SIGN UP</button>
+      </div>
+
+    </div>
+    <div class="login">
+      <button class="login-btn">LOG IN</button>
+    </div>
+
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="login-modal">
+      <div class="login-content">
+        <span id="closeLogin" class="close-btn">×</span>
+        <h2>Login</h2>
+        <input type="text" placeholder="Username" />
+        <input type="password" placeholder="Password" />
+        <button>Login</button>
+      </div>
+    </div>
+
+    <!-- SIGN UP Modal -->
+    <div id="signinModal" class="signin-modal">
+      <div class="signin-content">
+        <span id="closeSignin" class="close-btn">×</span>
+        <h2>Signin</h2>
+        <input type="text" placeholder="Email address" />
+        <input type="password" placeholder=" Set Password" />
+        <button>Sign in</button>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  </div>
+
+
+
+
+
+
+
+  <div class="big-container">
+
+
+    <div class="left-container">
+
+      <div class="lefti">
+        <div class="lib">
+          <span class="libo">Your Library</span>
+          <button class="plus">+</button>
+        </div>
+
+
+
+        <div class="scroll-container">
+
+          <div class="lbox">
+            <div class="playlist">
+              <span class="text">
+                <h3>Create your first playlist</h3>
+                <h4>it's easy, we'll help you</h4>
+              </span>
+              <button class="play-btn">Create playlist</button>
+            </div>
+          </div>
+
+          <div class="podcast">
+            <div class="pod">
+              <span class="text">
+                <h3>Let's find someone to follow</h3>
+                <h4>we'll keep you updated on new episodes</h4>
+              </span>
+              <button class="pod-btn">Browse podcast</button>
+            </div>
+          </div>
+        </div>
+        <hr>
+
+        <div class="btn-gang">
+
+          <div class="sml-gang">
+            <button>• Legal</button>
+            <button>• Safety</button>
+            <button>• Privary</button>
+            <button>• Cookies</button>
+            <button>• About Ad</button>
+            <button>• Accessibility</button>
+          </div>
+          <div class="mdm-gang">
+            <button>COOKIES</button>
+          </div>
+          <div class="lrg-gang">
+            <button>🌐ENGLISH</button>
+          </div>
+
+          <div class="info">
+            <li>Email:danyalpriyash@gmail.com</li>
+            <li>Contact:8278844919</li>
+            <li>Address:Dalhousie (HIMACHAL PRADESH)</li>
+
+          </div>
+
+
+        </div>
+
+
+
+
+
+      </div>
+    </div>
+
+
+    <div class="right-container">
+
+
+      <div class="trending">
+        <span>TRENDING NOW</span>
+        <button class="show-all">show all</button>
+      </div>
+
+
+
+      <div class="songs-1">
+        <div class="song-box" data-type="embed"
+          data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2106261939">
+          <img src="sapphire.jpg" height="200" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Sapphire</p>
+        </div>
+
+        <div class="song-box" data-type="embed"
+          data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2106866973">
+          <img src="saiyaara.jpg" height="200" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Saiyaara</p>
+        </div>
+
+        <div class="song-box" data-type="embed"
+          data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1937901655">
+          <img src="rattein gujari.jpg" height="200" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Rattein Gunjari</p>
+        </div>
+
+        <div class="song-box" data-type="embed"
+          data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/2035301445">
+          <img src="moose print.jpg" height="200" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Moose Print</p>
+        </div>
+
+        <div class="song-box" data-type="embed"
+          data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1403303650">
+          <img src="koonch na kri.jpg" height="200" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Koonch Na Kri</p>
+        </div>
+
+        <div class="song-box" data-type="embed"
+          data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2112555672">
+          <img src="killin it girl.jpg" height="200" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Killin' It Girl</p>
+        </div>
+
+        <div class="song-box" data-type="local" data-src="songs/Jugraafiya Super 30 128 kbps.mp3">
+          <img src="jugrafiya.jpg" height="200" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Jugrafiya</p>
+        </div>
+
+        <div class="song-box" data-type="local" data-src="songs/JeenaJeena.mp3">
+          <img src="jeena jeena.jpg" height="200" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Jeena Jeena</p>
+        </div>
+
+        <div class="song-box" data-type="local" data-src="songs/DilKyaKya.mp3">
+          <img src="dil kya kya.jpg" height="200" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Dil Kya Kya</p>
+        </div>
+
+        <div class="song-box" data-type="local" data-src="songs/ThugLife.mp3">
+          <img src="thug life.jpg" height="200" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Thug Life</p>
+        </div>
+      </div>
+
+      <div id="musicPlayer" class="music-player">
+    <span id="closePlayer">×</span>
+    <div id="playerContent"></div>
+  </div>
+
+
+
+      <div class="artist">
+        <span class="popular">POPULAR ARTIST</span>
+        <button class="show-all2">show all</button>
+
+      </div>
+      <div class="artist-photo-1">
+
+
+        <div class="song-box">
+          <img src="ar rahman.jpg" height="200px" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">A R Rahman</p>
+        </div>
+
+        <div class="song-box">
+          <img src="arijit singh.jpg" height="200px" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Arijit Singh</p>
+        </div>
+
+        <div class="song-box">
+          <img src="atif aslam.jpg" height="200px" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Atif Aslam</p>
+        </div>
+
+        <div class="song-box">
+          <img src="cheema.jpg" height="200px" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Cheema Y</p>
+        </div>
+
+        <div class="song-box">
+          <img src="pritam.jpg" height="200px" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Pritam</p>
+        </div>
+
+        <div class="song-box">
+          <img src="sachin jigar.jpg" height="200px" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Sachin Jigar</p>
+        </div>
+
+        <div class="song-box">
+          <img src="udit narayan.jpg" height="200px" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Udit Narayan</p>
+        </div>
+
+        <div class="song-box">
+          <img src="vishal shekhar.jpg" height="200px" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Vishal Shekhar</p>
+        </div>
+
+        <div class="song-box">
+          <img src="yo you honey.jpg" height="200px" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Yo Yo Honey</p>
+        </div>
+        <div class="song-box">
+          <img src="arjan dhillon.jpg" height="200px" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Arjan Dhillon</p>
+        </div>
+
+
+
+
+      </div>
+
+
+      <div class="album">
+        <span class="album-title">ALBUM</span>
+        <button class="show-all3">show all</button>
+      </div>
+
+
+      <div class="album-photo-1">
+        <div class="song-box">
+          <img src="aashiqui.jpg" height="200px" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Aashiqui</p>
+        </div>
+
+        <div class="song-box">
+          <img src="finding her.jpg" height="200px" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Finding her</p>
+        </div>
+
+        <div class="song-box">
+          <img src="making aujla.jpg" height="200px" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Karan Aujla</p>
+        </div>
+
+        <div class="song-box">
+          <img src="moosetrap.jpg" height="200px" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Moose Trap</p>
+        </div>
+
+        <div class="song-box">
+          <img src="raanjhan.jpg" height="200px" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Raanjhan</p>
+        </div>
+
+        <div class="song-box">
+          <img src="sicario.jpg" height="200px" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Shubh</p>
+        </div>
+
+        <div class="song-box">
+          <img src="ultimate arijit.jpg" height="200px" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Ultimate Arijit</p>
+        </div>
+
+        <div class="song-box">
+          <img src="yeh jawani hy dewani.jpg" height="200px" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Yeh Jawani Hy Diwani</p>
+        </div>
+
+        <div class="song-box">
+          <img src="young got.jpg" height="200px" width="200" class="img-box">
+          <div class="play-btn-overlay">▶</div>
+          <p class="caption">Young G.O.A.T</p>
+        </div>
+      </div>
+
+
+      <hr class="hr2">
+
+
+      <div class="info2">
+        <div class="company">
+          <span>Company</span>
+          <button>About</button>
+          <button>Job</button>
+          <button>For the record</button>
+        </div>
+        <div class="company">
+          <span>Community</span>
+          <button>For Artists</button>
+          <button>Developers</button>
+          <button>Advertising</button>
+          <button>Investors</button>
+          <button>Vendors</button>
+        </div>
+        <div class="company">
+          <span>Useful links</span>
+          <button>Support</button>
+          <button>Free Mobile App</button>
+          <button>Popular by Country</button>
+        </div>
+        <div class="company">
+          <span>Spotify Plans</span>
+          <button>Premium Individual</button>
+          <button>Premium Duo</button>
+          <button>Premium Family</button>
+          <button>Premium Student</button>
+          <button>Spotify Free</button>
+        </div>
+
+        <div class="social-media">
+          <img src="instagram-svgrepo-com.svg" height="40" width="40">
+          <img src="github-svgrepo-com.svg" height="40" width="40">
+          <img src="facebook-svgrepo-com.svg" height="40" width="40">
+          <img src="twitter-svgrepo-com.svg" height="40" width="40">
+        </div>
+
+      </div>
+
+      <hr class="hr2">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>
